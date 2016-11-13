@@ -1,0 +1,6 @@
+Q) What happens when you initialize a repository? Why do you need to do it?
+to start git to track files in a directory it must become an git repositroy. When git init is run .git file will be included in that particular directory and it contains meta data.
+
+Q) How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area lies between working directory and repository and it is used to specify what files are going to be committed to the repository.
+
