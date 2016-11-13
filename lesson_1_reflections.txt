@@ -1,0 +1,32 @@
+I'm kusal fernando from wattala. These days we are learning git, android and java.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term.
+
+Q) Pros and Cons of Manual Saving(git) & Automated Saving(google docs)
+Manual Saving
+Pros:
+-We can perform commit in a logical manner that means a commit should do for changes that had only on one logical part
+Cons:
+-can forget to perform the commit
+-commit can be too big
+
+Automated Saving
+Pros:
+-The changes may committed frequently and will not foget to perform commit
+-Large no of unwanted commits can be done
+Cons:
+-The changes may committed frequently but there will be no meaning
+
+Q) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	because in some contexts(like programming) more than one file is changed and they are interconnected so we need to track changes accross many files. In those contexts it is need to save multiple file in one commit.
+
+Q) How can you use the commands git log and git diff to view the history of files?
+git log is used to view all the commits what we have done up to now
+git diff is used to compare two different commits using their ids
+
+Q) How might using version control make you more confident to make changes that could break something?
+	git allows do changes and make commits. when latest commit has a bug using "checkout" we can find where is the starting point of the bug. using "diff" we can find what cause for that bug.
+*git checkout <commit id> - connect the head to that particular commit.
+
+Q) Now that you have your workspace set up, what do you want to try using Git for?
+	in here we have made terminal more interactive
+
