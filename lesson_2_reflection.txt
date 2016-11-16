@@ -9,4 +9,14 @@ we can check the changes we have done using "git diff". so we can make sure that
 "git diff --staged" can be used to compare last commit and staging area.
 
 Q) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Branches are use to do experiments seperately to a particular commit of the master branch. Thought we have made a branch still we can commit to the master branch or created brach seperately by using "check out" command. after several commits on master branch we can combine them with any particular branch using "merge".  
+Branches are use to do experiments seperately to a particular commit of the master branch. Thought we have made a branch still we can commit to the master branch or created brach seperately by using "check out" command. after several commits on master branch we can combine them with any particular branch using "merge".
+
+Q) How do the diagrams help you visualize the branch structure?  
+Diagrams contains all the commits that have been done on each branch. In there a particular commit points to its parent. If we done any commit on middle of a branch by checking out a previous commit, it couldn't be access until a new branch is created.
+
+Q) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	by merging two branches changes that have made in one branch can be included into checked out branch. After merging commits are arranged accoring to the time that changes have been made.
+	It is very usefull to use a diagram to get a clear picture of how the merging is worked.
+
+Q) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	it is very easy to merge automatically rather than doing it manually because otherwise we have to compare two branches manually and merge the changes into one branch. Though git merge branches automatically it facilitates to solve any conflict manually.
