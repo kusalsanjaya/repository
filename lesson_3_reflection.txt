@@ -3,3 +3,8 @@ Q) When would you want to use a remote repository rather than keeping all your w
 
 Q) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	sometimes changes that have made in git repository may be small or not logically related to be pulled automatically. So manually pulling is very useful to have meaningful commit set.
+
+Q) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork : is used to get a copy of existing git repository to our git working space
+clones : is used to get a copy of existing git repository to our local computer
+branches : is used to do any experiments or new features seperately from main working code and later merge it
