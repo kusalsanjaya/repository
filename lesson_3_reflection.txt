@@ -8,3 +8,6 @@ Q) Describe the differences between forks, clones, and branches. When would you 
 fork : is used to get a copy of existing git repository to our git working space
 clones : is used to get a copy of existing git repository to our local computer
 branches : is used to do any experiments or new features seperately from main working code and later merge it
+
+Q) What is the benefit of having a copy of the last known state of the remote stored locally?
+	then it is easy to merge changes local and git directory
